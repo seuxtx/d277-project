@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link href="css/style.css"  rel="stylesheet" >
+        <script src="email.js"></script>
+    </head>
+
+    <header>
+        <div class="about">
+            <h1>Contact Forum</h1>
+            <hr style="height:2px;border-width:0;color:rgb(14, 13, 13);background-color:rgb(3, 3, 3)">
+        </div>
+
+    </header>
+    <body>
+            <nav class="nav-links">
+                <span><a href="harrisburg.html" >Harrisburg</a></span>&nbsp;
+                <span><a href="bethelhem.html" >Bethlehem</a></span>&nbsp;
+                <span><a href="gettsy.html" >Gettysburg</a></span>&nbsp;
+                <span><a href="forum.html" >Contact</a></span>&nbsp;
+            </nav>
+    <div class="flex-p">
+
+
+            <h1>Contact Form</h1>
+        <div id="contact-form">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmEmail">Confirm Email Address:</label>
+                <input type="email" id="confirmEmail" name="confirmEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="question">Your Question:</label>
+                <textarea id="question" name="question" rows="5" required></textarea>
+            </div>
+            <button type="button" onclick="validateForm()">Submit</button>
+        </div>
+        
+    </div>  
+      
+    </body>
+</html>
